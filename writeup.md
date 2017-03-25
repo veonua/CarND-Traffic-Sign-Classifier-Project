@@ -1,10 +1,4 @@
-#**Traffic Sign Recognition** 
-
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
+# **Traffic Sign Recognition** 
 
 **Build a Traffic Sign Recognition Project**
 
@@ -157,7 +151,7 @@ because it was made for this dataset
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
 fairly well, due to stochastic nature of NN and many hyper-params the result is not stable, and depends on current random seed.  
 
-###Test a Model on New Images
+### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
@@ -186,6 +180,9 @@ Here are the results of the prediction:
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 92.7%
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+
+
+![probs][image9]
 
 ##### Stop sign
 
@@ -240,7 +237,4 @@ model definitely classify this sign as speed limit, and even found pretty close 
 | Speed limit (30km/h) | '0.0' |
 | Speed limit (50km/h) | '0.0' |
 | Speed limit (60km/h) | '0.0' |
-
-
-![probs][image9]
 
